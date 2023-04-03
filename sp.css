@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sanpham{
+    position: relative;
+    width: 250px;
+    height: 600px;
+}
+
+.img-position {
+    position: relative;
+
+}
+
+.img-into{
+    position: absolute;
+    margin: 1px;
+    width: 240px;
+    height: 440px;
+}
+
+.ten{
+    position: absolute;
+    bottom: 30px;
+    background-color: #3f3530;
+    width: 249px;
+    height: 100px;
+}
+legend{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 115px;
+    width: 100px;
+    height: 35px;
+    left: 5px;
+    text-align: center;
+    border-radius: 4px;
+    background-color:rgb(220, 128, 104);
+    z-index: 999;
+}
+.tensp{
+    position: relative;
+    width: 250px;
+    height: 42px;
+}
+
+.tensp h4{
+    position: absolute;
+    text-align: center;
+    left: 10px;
+    top: 19px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.trongluong{
+    position: relative;
+}
+.trongluong a{
+    position: absolute;
+    color: rgb(220, 128, 104);
+    left: 5px;
+    top: 10px;
+}
+.trongluong a:hover{
+    color: red;
+    cursor: pointer;
+}
+.chitiet{
+    position: absolute;
+    bottom: 0.1px;
+    height: 40px;
+    width: 249px;
+    text-align: center;
+    background-color:rgb(220, 128, 104);
+}
+.chitiet:hover{
+    background-color: #888;
+    cursor: pointer;
+}
+.chitiet a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}

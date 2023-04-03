@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("bg.jpg");
+}
+
+#logo
+{
+ display: inline;
+}
+
+#logo>img
+{
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+header
+{
+    
+    background-color: rgba(2, 2, 2, 0.756);
+    display: flex;
+}
+
+
+#giohang
+{
+    margin-left: auto;
+    margin-top: 25px;
+    clear: both;
+    
+}
+
+#giohang ion-icon
+{
+    
+    width: 40px;
+    height: 40px;
+    margin-top: 80%;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+#giohang a
+{
+    color: white;
+    font-size: 20px;
+}
+
+#giohang a:hover{
+   color: rgb(220, 128, 104);
+   background-color: rgba(36, 36, 36, 0.715);
+   border: 20px;
+   border-radius: 5px;
+}
+nav
+{
+    margin-top: 90px;
+    clear: both;
+    
+}
+nav li {
+    display: flex;
+    padding: 10px;
+    padding-top: auto ;
+   }
+
+nav
+{      
+       position: absolute;
+       right: 450px;
+       margin-top: 90px;
+       clear: both;
+}
+nav ul li
+   {
+       display: inline;
+       list-style: none; 
+       font-size: 22px;
+   }
+nav ul li 
+   {
+       color: rgb(255, 255, 255);
+       border-radius: 15px;
+   }
+   
+nav ul li:hover
+   {
+       background-color: rgba(0, 0, 0, 0.642);
+       color: rgb(220, 128, 104);
+   }
+   
+
+   .mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: #2020208a;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  background-color: #2020208a;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.top{
+    width: 100%;
+    height: 440px;
+}
+
+
+.topcon{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.ghecuahang h2{
+    font-family: "viber", cursive;
+    color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ghecuahang h3{
+    font-family: "viber", cursive;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.nutbam button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(220, 128, 104);
+}
+.nutbam button:hover{
+    background-color: #777;
+}
+.nutbam a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navmini{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.nuttron button{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #664d42;
+}
+.nuttron a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    z-index: 999;
+    padding-top: 50px;
+
+}
+.bottom{
+    position: relative;
+    background-color: #888;
+    height: 80px;
+    z-index: -999;
+}
+.bottom p{
+    position: absolute;
+
+}
+
+#mid
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(33, 33, 33, 0.639);
+    padding: 25px;
+   
+    height: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sanpham
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sanpham{
+    position: relative;
+    width: 250px;
+    height: 480px;
+}
+
+.img-position {
+    position: relative;
+
+}
+
+.img-into{
+    position: absolute;
+    margin: 1px;
+    width: 250px;
+    height: 340px;
+}
+
+.ten{
+    position: absolute;
+    bottom: 30px;
+    background-color: #3f3530;
+    width: 249px;
+    height: 100px;
+}
+legend{
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 115px;
+    width: 200px;
+    padding-top: 4px;
+    height: 35px;
+    left: 5px;
+    text-align: center;
+    border-radius: 4px;
+    background-color:rgb(220, 128, 104);
+    z-index: 999;
+}
+.tensp{
+    position: relative;
+    width: 250px;
+    height: 42px;
+}
+
+.tensp h4{
+    position: absolute;
+    text-align: center;
+    left: 10px;
+    top: 19px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.trongluong{
+    position: relative;
+}
+.trongluong a{
+    position: absolute;
+    color: rgb(220, 128, 104);
+    left: 5px;
+    top: 10px;
+}
+.trongluong a:hover{
+    color: red;
+    cursor: pointer;
+}
+.chitiet{
+    position: absolute;
+    bottom: 0.1px;
+    height: 40px;
+    width: 249px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:rgb(220, 128, 104);
+}
+.chitiet:hover{
+    background-color: #888;
+    cursor: pointer;
+}
+.chitiet a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+footer
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(11, 11, 11, 0.902);
+}
+footer .chucuoitrang 
+{
+    margin-left: 5%;
+    display: flex;
+}
+
+footer div.bang
+{
+    margin: 15px;
+}
+
+footer div.bang li a 
+{
+    color: white;
+    font-size: 20px;
+}
+
+footer div.bang ion-icon
+{
+    color: #ffffff;
+    font-size: 30px;
+}
+footer div.bang li
+{
+    margin-top: 10px;
+    list-style: none;
+}
+
+footer div.bang h3
+{
+color: #ffffff;
+}
+footer div.gioithieutrang
+{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer div.thongbaocongthuong img
+{
+   width: 320px;
+   height: 110px;
+   margin-left: 25px;
+   margin-bottom: 25px;
+}
+
+footer div.chu 
+{
+    display: flex;
+    margin-left: 70%;
+}
